@@ -1,0 +1,7 @@
+# Ignore everything by default, then whitelist what Docker needs
+*
+
+# Allow the app files
+!main.py
+!requirements.txt
+!FindFast.exe
