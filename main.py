@@ -15,8 +15,8 @@ app = Flask(__name__)
 
 # FindFast.exe must sit in the same directory as main.py
 BASE_DIR = Path(__file__).resolve().parent
-EXE_PATH = BASE_DIR / "FindFast.exe"
-EXE_NAME = "FindFast.exe"
+EXE_PATH = BASE_DIR / "FindFast.msix"
+EXE_NAME = "FindFast.msix"
 
 
 def _check_exe() -> None:
