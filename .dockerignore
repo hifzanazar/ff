@@ -4,4 +4,4 @@
 # Allow the app files
 !main.py
 !requirements.txt
-!FindFast.exe
+!FindFast.msix
